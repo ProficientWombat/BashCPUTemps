@@ -1,0 +1,9 @@
+#!/bin/bash
+
+value=1
+while [ $value -lt 2 ]
+do
+	sensors
+	sleep 3s
+done
+
